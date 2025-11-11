@@ -1,0 +1,10 @@
+#Enforcement
+NewExploit agent REFNServer
+REFNServer deploy VNFDefense1
+REFNServer deploy VNFDefense2
+Attacker exploit CloudGateway
+BenignUser access CloudGateway
+CloudGateway access VNFDefense1
+CloudGateway access VNFDefense2
+VNFDefense1 access CloudAsset1
+VNFDefense2 access CloudAsset2
